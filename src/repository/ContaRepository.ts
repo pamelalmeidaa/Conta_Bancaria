@@ -18,4 +18,4 @@ export interface ContaRepository{
     depositar(numero: number, valor: number): void
     transferir(numeroOrigem: number, numeroDestino: number, valor: number): void;
 
-}9
+}
