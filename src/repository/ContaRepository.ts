@@ -1,5 +1,4 @@
-
-﻿import { Conta } from "../model/Conta";
+import { Conta } from "../model/Conta";
 
 export interface ContaRepository{
 
@@ -10,6 +9,7 @@ export interface ContaRepository{
     cadastrar(conta: Conta): void;
     atualizar(conta: Conta): void;
     deletar(numero: number): void;
+    procurarPorTitular(titular: string): void;
 
     // Métodos Bancários
 
